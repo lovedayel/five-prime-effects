@@ -5,7 +5,7 @@ This repository contains the source code for running the analysis described in t
 
 'FYP_key' contains the key to translate the figures from the paper to the figures in Loveday's final year project.
 
-'genomes.csv' is a list of the set of 650 bacteria considered in the paper and their accession numbers. The corresponding EMBL files can be found in 'bacterial\_filtered_genomes.zip'
+'genomes.csv' contains a list of the set of 650 bacteria considered in the paper and their accession numbers. The corresponding EMBL files can be found in 'bacterial\_filtered_genomes.zip'
 
 'Ecoli\_all_vectors.csv' contains all of the vectors of log odds ratios calculated for *E. coli* by codon.
 
