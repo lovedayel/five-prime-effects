@@ -37,9 +37,9 @@ codons_dict = {
 
 my_path = os.getcwd()
 
-#extract all .embl files and use to retrieve accession numbers
+#extract all .gbff files and use to retrieve accession numbers
 
-path_gbff = os.path.join(my_path, "*.csv")
+path_gbff = os.path.join(my_path, "*.gbff")
 files_list = glob.glob(path_gbff)
 
 for fle in files_list:

@@ -24,6 +24,8 @@ for fle in files_list:
 	for gb_record in SeqIO.parse(open(fle, "r"), "genbank"):
 		print(f"Name: {gb_record.name}, features: {len(gb_record.features)}")
 		
+#specify file path: each genome has a separate folder named after its accession gb_record.name 
+		
 		filepath = os.path.join("/Users/lovedaylewin/Documents/Bath Year 3/FYP/Python_Scripts/learning_python/filtered_genomes/pax_db_genomes/", gb_record.name)
 
 #do the B. subtilis separately as the PaxDB abundance data uses the old locus tag
