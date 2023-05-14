@@ -3,7 +3,7 @@
 This repository contains the source code for running the analysis described in the project.
 
 
-'genomes.csv' contains a list of the set of 650 bacteria considered in the paper and their accession numbers. The corresponding EMBL files were used in the analysis for figures 3 + 4
+'genomes.csv' contains a list of the set of 650 bacteria considered in the paper and their accession numbers. The corresponding EMBL files were used in the analysis for figures 3 + 4.
 
 'Ecoli\_all_vectors.csv' contains all of the vectors of log odds ratios calculated for *E. coli* by codon.
 
