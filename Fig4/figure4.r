@@ -16,7 +16,7 @@ ecoli = subset(data2, Accession == "AP010953")
 
 #plot r values against GC3 content including quadratic model
 
-pdf("figure4a.pdf", width = 8, height = 6)
+pdf("figure4.pdf", width = 8, height = 6)
 fig4 = ggplot(data2, aes(x = GC3_content, y = rvals)) +
 	geom_point(colour = "blue", pch = 21) + 
 	geom_point(data = ecoli, colour = "red", pch = 18, cex = 4) +

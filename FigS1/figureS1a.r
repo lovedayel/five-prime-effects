@@ -29,13 +29,13 @@ inte = with(pca, center[2] - slp*center[1])
 
 #plot V5-prot against VedIO
 
-pdf("figureS3a.pdf")
-figS3a = ggplot(log_odds_df, aes(x=log_odds, y=Maeruginosa_lo, label = codon)) +
+pdf("figureS1a.pdf")
+figS1a = ggplot(log_odds_df, aes(x=log_odds, y=Maeruginosa_lo, label = codon)) +
 	geom_point(color = "red") +
 	geom_text_repel() +
 	theme_bw() +
 	labs(x = "V edIO", y = "V 5-prot") +
 	geom_abline(slope = slp, intercept = inte, colour = "blue") + 
 	stat_cor(label.y.npc= 0.92, label.x.npc = 0.05, method = "pearson")
-print(figS3a)
+print(figS1a)
 dev.off()
