@@ -24,7 +24,7 @@ This repository contains the source code for running the analysis described in t
 - Fig6: calculate codon enrichment at the cores of native *E. coli* genes with highly abundant proteins (V<sub>TO</sub>) and plot against V<sub>edIO</sub>
 - Fig7: plot V<sub>TO</sub> against V<sub>5-prot</sub>
 - Fig8: calculate codon enrichment at the 5' ends of *E. coli* genes with low noise measurements (V<sub>noise</sub>)and plot against V<sub>5-prot</sub>
-- Fig9: calculate codon enrichment at the 5' ends of essential genes compared to non-essential (V<sub>ess</sub>) and plot against *E. coli* V<sub>edIO</sub>
+- Fig9: calculate codon enrichment at the 5' ends of essential genes compared to non-essential (V<sub>ess</sub>) and plot against V<sub>edIO</sub>
 - FigS1: calculate codon enrichment at the 5' ends of genes with highly abundant proteins (V<sub>5-prot</sub>) for four additonal genomes and plot against V<sub>edIO</sub>
 
 
